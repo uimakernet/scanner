@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.uimakernet.scanner">
+
+  <uses-permission android:name="android.permission.CAMERA" />
+
+  <application>
+    <activity
+        android:name="com.uimakernet.scanner.ScannerActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+  </application>
+</manifest>
